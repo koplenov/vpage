@@ -1,7 +1,7 @@
 ## Hello World
 
 
-```Go
+```go
 fn main() {
 	println('hello world')
 }
