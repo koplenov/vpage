@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'V by example',
+  title: 'V programming guide',
   tagline: 'Dinosaurs are cool',
   url: 'https://koplenov.github.io/vbyexample/',
   baseUrl: '/vbyexample/',
@@ -11,15 +11,21 @@ module.exports = {
   projectName: 'vbyexample', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Page',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'V Logo',
+        src: 'img/v-logo.svg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'docs/intro',
+          position: 'left',
+          label: 'Docs',
+        },
+        {
+          type: 'doc',
+          docId: 'tutorials/intro',
           position: 'left',
           label: 'Tutorial',
         },
@@ -29,7 +35,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/koplenov/vbyexample',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,8 +48,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Official language site',
+              to: 'https://vlang.io/',
             },
           ],
         },
@@ -52,15 +58,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/vlang',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/vlang',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/v_language',
             },
           ],
         },
@@ -73,7 +79,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/vlang/v',
             },
           ],
         },
@@ -107,4 +113,5 @@ module.exports = {
       },
     ],
   ],
+  
 };
