@@ -29,11 +29,13 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
+        /* maybe for future ¯\_(ツ)_/¯
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
         },
+        */
         {
           href: 'https://github.com/koplenov/vbyexample',
           label: 'GitHub',

@@ -1,6 +1,6 @@
 https://metanit.com/go/tutorial/2.1.php
 
-настройка среды
+настройка среды - ok
 
 //Глава 1
 Глава 2

@@ -1,4 +1,8 @@
-## Setting up the environment
++ ---
++ title: Настройка среды
++ sidebar_position: 1
++ description: Настройка среды для программирования V
++ ---
 
 Рекомендую использовать Visual Studio Code c плагином языка V
 
