@@ -84,3 +84,6 @@ https://marketplace.visualstudio.com/items?itemName=vlanguage.vscode-vlang
 
 Все, первоначальная настройках среды завершена, теперь мы можем приступать программированию на языке V! :D
 
+дальше - жестче
+:))
+

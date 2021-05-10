@@ -2,13 +2,13 @@
 module.exports = {
   title: 'V programming guide',
   tagline: 'Dinosaurs are cool',
-  url: 'https://koplenov.github.io/vbyexample/',
-  baseUrl: '/vbyexample/',
+  url: 'https://koplenov.github.io/vpage/',
+  baseUrl: '/vpage/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: '', // Usually your GitHub org/user name.
-  projectName: 'vbyexample', // Usually your repo name.
+  projectName: 'vpage', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Page',
@@ -102,13 +102,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/koplenov/vpage/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/koplenov/vpage/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

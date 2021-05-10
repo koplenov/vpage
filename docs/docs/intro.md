@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+hello darkness, my old friend..
+
 # Docs
 
 Let's discover **Docusaurus in less than 5 minutes**.
