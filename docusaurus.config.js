@@ -19,7 +19,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'docs/intro',
+          docId: 'docs/basics-of-language-V',
           position: 'left',
           label: 'Docs',
         },

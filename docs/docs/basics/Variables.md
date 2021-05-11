@@ -1,6 +1,6 @@
 ## Variables
 
-```v
+```go
 name := 'Bob'
 age := 20
 large_number := i64(9999999999)
@@ -19,7 +19,7 @@ For consistency across different code bases, all variable and function names mus
 
 ### Mutable variables
 
-```v
+```go
 mut age := 20
 println(age)
 age = 21
@@ -34,7 +34,7 @@ Try compiling the program above after removing `mut` from the first line.
 
 Note the (important) difference between `:=` and `=`. `:=` is used for declaring and initializing, `=` is used for assigning.
 
-```v
+```go
 fn main() {
 	age = 21
 }
@@ -42,7 +42,7 @@ fn main() {
 
 This code will not compile, because the variable `age` is not declared. All variables need to be declared in V.
 
-```v
+```go
 fn main() {
 	age := 21
 }
@@ -50,7 +50,7 @@ fn main() {
 
 The values of multiple variables can be changed in one line. In this way, their values can be swapped without an intermediary variable.
 
-```V
+```go
 mut a := 0
 mut b := 1
 println('$a, $b') // 0, 1

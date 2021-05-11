@@ -4,7 +4,7 @@ Every file in the root of a folder is part of the same module. Simple programs d
 
 V is a very modular language. Creating reusable modules is encouraged and is quite easy to do. To create a new module, create a directory with your module's name containing .v files with code:
 
-```v
+```go
 cd ~/code/modules
 mkdir mymodule
 vim mymodule/myfile.v
@@ -19,7 +19,7 @@ pub fn say_hi() {
 
 You can now use `mymodule` in your code:
 
-```v
+```go
 import mymodule
 
 fn main() {
@@ -38,7 +38,7 @@ fn main() {
 
 If you want a module to automatically call some setup/initialization code when it is imported, you can use a module `init` function:
 
-```v
+```go
 fn init() {
 	// your setup code here ...
 }

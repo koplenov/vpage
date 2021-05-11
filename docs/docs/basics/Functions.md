@@ -1,6 +1,6 @@
 ## Functions
 
-```v
+```go
 fn main() {
 	println(add(77, 33))
 	println(sub(100, 50))
@@ -23,7 +23,7 @@ Functions can be used before their declaration: `add` and `sub` are declared aft
 
 ### Returning multiple values
 
-```v
+```go
 fn foo() (int, int) {
 	return 2, 3
 }
@@ -36,7 +36,7 @@ c, _ := foo() // ignore values using `_`
 
 ## Symbol visibility
 
-```v
+```go
 pub fn public_function() {
 }
 
