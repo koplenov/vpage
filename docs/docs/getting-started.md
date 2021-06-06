@@ -1,6 +1,9 @@
 ---
 title: Настройка среды
 sidebar_position: 1
+keywords:
+  - настройка V
+  - V setup
 description: Настройка среды для программирования V
 ---
 

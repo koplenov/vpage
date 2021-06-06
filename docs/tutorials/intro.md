@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 title: Канава идей
+keywords:
+  - V community
 ---
 
 \*протяжный треск сверчков*
