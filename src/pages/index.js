@@ -19,6 +19,11 @@ function HomepageHeader() {
             to="/docs/tutorials/intro">
            Предложить свой V код!
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/docs/basics-of-language-V">
+           Основы V
+          </Link>
         </div>
       </div>
     </header>

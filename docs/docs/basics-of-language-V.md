@@ -1,6 +1,6 @@
 ---
 title: Основы языка V
-sidebar_position: 3
+sidebar_position: 2
 keywords:
   - основы языка V
   - V language
